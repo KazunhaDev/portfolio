@@ -131,6 +131,7 @@ nav a{
 
 .servicesTittle {
     padding-left: 825px;
+    padding-top: 80px;
     padding-bottom: 75px;
     font-weight: bold;
     align-items: center;
@@ -176,7 +177,7 @@ nav a{
 /* End Services Config */
 
 .contactme {
-    padding-top: 150px;
+    padding-top: 250px;
 }
 
 .contacts {
