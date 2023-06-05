@@ -219,7 +219,7 @@ p {
 
 a {
     color: #D65A31;
-    text-decoration: none;
+    text-decoration: underline 1px;
     text-underline-offset: 5px;
 }
 
