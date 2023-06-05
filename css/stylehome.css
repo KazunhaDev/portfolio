@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+body {
+    font-size: 60px;
+    font-family: Lato;
+    background-color: #393E46;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+/* Star navBar Config */
+.navBar {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-spacing: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.contact {
+    color: #D65A31;
+}
+
+/* End navBar Config */
+
+
+/* Start Images config */
+.img01 {
+    position: static;
+    max-width: 700px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    float: right;
+}
+
+.img02 {
+    position: static;
+    max-width: 800px;
+    padding-right: 80px;
+    float: left;
+}
+
+.img03 {
+    position: static;
+    max-width: 800px;
+    padding-right: 80px;
+    float: right;
+}
+
+/* End Images config */
+
+.title {
+    font-style: italic;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.introduction {
+    padding-top: 40px;
+    padding-left: 60px;
+    color: #EEEEEE;
+}
+
+.fullStack {
+    font-size: 70px;
+    color: #D65A31;
+    font-weight: bold;
+}
+
+.myself {
+    color: #EEEEEE;
+    font-size: 30px;
+    padding-top: 15px;
+    max-width: 490px;
+    padding-bottom: 150px;
+}
+
+.senaiDC {
+    font-style: italic;
+    color: #D65A31;
+}
+
+.skills {
+    padding-left: 80px;
+    padding-bottom: 100px;
+    background-color: #222831;
+}
+
+.skillsTitle {
+    font-size: 60px;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.skillsTable {
+    padding-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skillsIcons {
+    max-width: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.skillList {
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+
+
+/* Start Services Config */
+
+.services {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    align-items: center;
+    position: static;
+    background-color: #222831;
+}
+
+.servicesTittle {
+    padding-left: 825px;
+    padding-bottom: 75px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesType {
+    padding-top: 10px;
+    color: #D65A31;
+    font-weight: bold;
+    border-color: #eeeeee00;
+    border-top-color: #D65A31;
+    border-style: solid;
+}
+
+.serviceButtonList {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.serviceButton {
+    width: 300px;
+    height: 350px;
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #EEEEEE;
+    box-shadow: 8px 8px 10px #222831;
+}
+
+.serviceList {
+    word-spacing: 10px;
+    margin: 10px;
+    color: #222831;
+    font-style: italic;
+    list-style: none;
+    justify-content: center;
+    display: inline;
+    align-items: center;
+}
+
+/* End Services Config */
+
+.contactme {
+    padding-top: 150px;
+}
+
+.contacts {
+    padding: 40px;
+    font-size: 25px;
+    padding-top: 250px;
+    padding-left: 50px;
+    color: #EEEEEE;
+}
+
+td {
+    padding-right: 40px;
+}
+
+.contactsIcon {
+    max-width: 35px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+.discordIcon {
+    max-width: 35px;
+}
+
+.emailButton {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #222831;
+    background-color: #D65A31;
+    border-style: none;
+    box-shadow: 2px 2px 8px #222831;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.footer {
+    position: fixed;
+    font-size: 20px;
+    padding-top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    text-align: center;
+    background-color: #222831;
+}
