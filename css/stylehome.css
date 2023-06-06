@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-
 body {
     font-size: 60px;
     font-family: Lato;
@@ -35,22 +34,22 @@ nav a {
 .img01 {
     position: static;
     max-width: 700px;
-    padding-right: 80px;
-    padding-bottom: 100px;
+    margin-right: 80px;
+    margin-bottom: 100px;
     float: right;
 }
 
 .img02 {
     position: static;
     max-width: 800px;
-    padding-right: 80px;
+    margin-right: 80px;
     float: left;
 }
 
 .img03 {
     position: static;
     max-width: 800px;
-    padding-right: 80px;
+    margin-right: 80px;
     float: right;
 }
 
@@ -64,8 +63,8 @@ nav a {
 }
 
 .introduction {
-    padding-top: 40px;
-    padding-left: 60px;
+    margin-top: 40px;
+    margin-left: 60px;
     color: #EEEEEE;
 }
 
@@ -121,23 +120,23 @@ nav a {
 /* Start Services Config */
 
 .services {
-    padding-top: 100px;
-    padding-bottom: 150px;
+    margin-top: 100px;
+    margin-bottom: 150px;
     align-items: center;
     position: static;
 }
 
 .servicesTittle {
-    padding-left: 825px;
-    padding-top: 80px;
-    padding-bottom: 75px;
+    margin-left: 825px;
+    margin-top: 80px;
+    margin-bottom: 75px;
     font-weight: bold;
     align-items: center;
     justify-content: center;
 }
 
 .servicesType {
-    padding-top: 10px;
+    margin-top: 10px;
     color: #D65A31;
     font-weight: bold;
     border-color: #eeeeee00;
@@ -175,14 +174,15 @@ nav a {
 /* End Services Config */
 
 .contactme {
-    padding-top: 250px;
+    margin-top: 250px;
 }
 
 .contacts {
     padding: 40px;
     font-size: 25px;
     padding-top: 250px;
-    padding-left: 50px;
+    margin-left: 60px;
+    margin-bottom: 400px;
     color: #EEEEEE;
 }
 
@@ -192,8 +192,8 @@ td {
 
 .contactsIcon {
     max-width: 35px;
-    padding-right: 10px;
-    padding-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 
@@ -212,6 +212,11 @@ td {
     box-shadow: 2px 2px 8px #222831;
 }
 
+button a{
+    color: #222831;
+    text-decoration: none;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1px;
@@ -224,9 +229,9 @@ a {
 }
 
 .footer {
-    position: fixed;
+    position: static;
     font-size: 20px;
-    padding-top: 10px;
+    margin-top: 10px;
     left: 0;
     right: 0;
     bottom: 0;
