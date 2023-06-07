@@ -28,37 +28,66 @@ nav a {
 }
 
 /* End navBar Config */
+/* ====================================== */
 
-.home {
-    padding-top: 50px;
+/* Start Category Config */
+.homeGrid {
+    /* border: 2px solid #761acc; */
+    margin: 60px;
+    margin-top: 50px;
 }
+
+.skillsGrid {
+    /* border: 2px solid #EEEEEE; */
+    margin: 60px;
+    margin-top: 350px;
+}
+
+.servicesGrid {
+    /* border: 2px solid #D65A31; */
+    margin: 60px;
+    margin-top: 350px;
+}
+
+.contactGrid {
+    /* border: 2px solid #761acc; */
+    margin: 60px;
+    margin-top: 350px;
+    margin-bottom: 450px;
+}
+
+/* End Category Config */
+/* ====================================== */
 
 /* Start Images config */
 .img01 {
+    /* border: 2px solid #EEEEEE; */
     position: static;
-    max-width: 700px;
-    margin-right: 80px;
     float: right;
+    max-width: 700px;
 }
 
 .img02 {
+    /* border: 2px solid #EEEEEE; */
     position: static;
+    float: left;
     max-width: 800px;
     margin-right: 80px;
-    margin-left: 30px;
-    float: left;
 }
 
 .img03 {
+    /* border: 2px solid #EEEEEE; */
     position: static;
-    max-width: 800px;
-    margin-right: 80px;
     float: right;
+    max-width: 700px;
 }
 
 /* End Images config */
+/* ====================================== */
 
+/* Start Home Config */
 .title {
+    /* border: 2px solid #EEEEEE; */
     font-style: italic;
     font-size: 30px;
     margin-bottom: 10px;
@@ -66,8 +95,7 @@ nav a {
 }
 
 .introduction {
-    margin-top: 40px;
-    margin-left: 60px;
+    /* border: 2px solid #EEEEEE; */
     color: #EEEEEE;
 }
 
@@ -78,11 +106,11 @@ nav a {
 }
 
 .myself {
+    /* border: 2px solid #EEEEEE; */
     color: #EEEEEE;
     font-size: 30px;
-    padding-top: 15px;
+    margin-top: 15px;
     max-width: 490px;
-    padding-bottom: 150px;
 }
 
 .senaiDC {
@@ -90,19 +118,19 @@ nav a {
     color: #D65A31;
 }
 
-.skills {
-    padding-left: 80px;
-    padding-bottom: 100px;
-}
+/* End Home Config */
+/* ====================================== */
 
+/* Start Skills Config */
 .skillsTitle {
+    /* border: 2px solid #EEEEEE; */
     font-size: 60px;
-    padding-top: 180px;
-    padding-bottom: 20px;
-    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .skillsTable {
+    /* border: 2px solid #EEEEEE; */
     padding-bottom: 25px;
     font-size: 20px;
     font-weight: lighter;
@@ -110,34 +138,27 @@ nav a {
 }
 
 .skillsIcons {
+    /* border: 2px solid #EEEEEE; */
     max-width: 60px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
 
 .skillList {
-    font-size: 25px;
-    padding-bottom: 100px;
+    /* border: 2px solid #EEEEEE; */
     font-weight: lighter;
+    font-size: 25px;
 }
 
+/* End Skills Config */
+/* ====================================== */
 
 /* Start Services Config */
-
-.services {
-    margin-top: 100px;
-    margin-bottom: 150px;
-    align-items: center;
-    position: static;
-}
-
 .servicesTittle {
-    margin-left: 825px;
-    margin-top: 80px;
+    /* border: 2px solid #EEEEEE; */
     margin-bottom: 75px;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
+    font-size: 60px;
+    text-align: center;
 }
 
 .servicesType {
@@ -150,9 +171,14 @@ nav a {
 }
 
 .serviceButtonList {
+    /* border: 2px solid #EEEEEE; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+td {
+    padding-right: 50px;
 }
 
 .serviceButton {
@@ -174,17 +200,18 @@ nav a {
 }
 
 /* End Services Config */
+/* ====================================== */
 
-.contactme {
-    margin-top: 250px;
+/* Start Contacts Config */
+.contactTitle {
+    font-size: 60px;
 }
 
 .contacts {
-    padding: 40px;
+    /* border: 2px solid #EEEEEE; */
+    margin-top: 60px;
     font-size: 35px;
-    padding-top: 250px;
-    margin-left: 30px;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
     color: #EEEEEE;
 }
 
@@ -193,16 +220,16 @@ nav a {
     font-style: italic;
 }
 
-td {
-    padding-right: 40px;
-}
-
 .contactsIcon {
     max-width: 35px;
     margin-right: 10px;
     margin-top: 10px;
 }
 
+.buttonsIcon {
+    max-width: 70px;
+    margin-left: 50px;
+}
 
 .discordIcon {
     max-width: 35px;
@@ -223,6 +250,9 @@ button a {
     color: #222831;
     text-decoration: none;
 }
+
+/* End Contacts Config */
+/* ====================================== */
 
 p {
     margin-top: 0;
