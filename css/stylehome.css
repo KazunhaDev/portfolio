@@ -31,6 +31,7 @@ nav a {
 /* ====================================== */
 
 /* Start Category Config */
+
 .homeGrid {
     /* border: 2px solid #761acc; */
     margin: 60px;
@@ -162,12 +163,14 @@ nav a {
 }
 
 .servicesType {
+    /* background: linear-gradient(123deg, #742c14, #ff4204, #742c14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     margin-top: 50px;
     color: #D65A31;
     font-weight: bold;
-    border-color: #eeeeee00;
+    border: solid #eeeeee00;
     border-top-color: #D65A31;
-    border-style: solid;
 }
 
 .serviceButtonList {
@@ -193,7 +196,7 @@ td {
 .serviceList {
     word-spacing: 10px;
     margin: 10px;
-    color: #222831;
+    color: gray;
     font-style: italic;
     list-style: none;
     display: inline;
@@ -277,3 +280,43 @@ a {
     text-align: center;
     background-color: #222831;
 }
+
+/* Animations */
+
+/* Border */
+.borderColor {
+    transition: border-color 1s;
+    border-bottom: solid 2px #eeeeee00;
+}
+
+.borderColor:hover {
+    border-color: #D65A31;
+}
+
+/* Scales */
+.transitionScale {
+    transition: transform 1.5s, border-color 1s;
+}
+
+.transitionScale:hover {
+    transform: scale(1.1);
+    border-color: #D65A31;
+}
+
+/* @keyframes fly {
+    0% {
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.imgAnimation:hover img {
+    animation: fly 2s linear infinite;
+} */
