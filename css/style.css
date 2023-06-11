@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 60px;
+    font-family: Lato;
+    color: #EEEEEE;
+    background-color: #393E46;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Star Nav Bar Config */
+.nav-bar {
+    font-size: 25px;
+    margin-top: 15px;
+    word-spacing: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.contact {
+    color: #D65A31;
+}
+
+/* End Margin Layout config */
+/* ====================================== */
+
+/* Start Home Config */
+#home {
+    margin: 60px;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    color: #EEEEEE;
+    align-items: center;
+}
+
+#article {
+    max-width: 50%;
+}
+
+#who-im {
+    font-style: italic;
+    font-size: 50%;
+}
+
+#full-stack {
+    color: #D65A31;
+    font-weight: bold;
+}
+
+#myself {
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+#senai-institution {
+    font-style: italic;
+    color: #D65A31;
+    font-weight: lighter;
+}
+
+#img01>img {
+    max-width: 80%;
+    height: auto;
+    float: right;
+}
+
+/* End Home Config */
+/* ====================================== */
+
+/* Start Skills Config */
+#skills {
+    margin: 200px 60px;
+}
+
+#skills-content {}
+
+.skills-title {
+    margin-bottom: 5%;
+}
+
+.skills-table {
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.skills-icons img {
+    max-width: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.skill-list {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+td {
+    padding-right: 50px;
+}
+
+#img02>img {
+    position: static;
+    display: flex;
+    height: auto;
+    max-width: 60%;
+}
+
+#img02::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* End Skills Config */
+/* ====================================== */
+
+/* Start Services Config */
+#services {
+    margin: 200px 60px;
+}
+
+.services-tittle {
+    margin-bottom: 5%;
+    font-size: 60px;
+    text-align: center;
+}
+
+#service-category {
+    background: linear-gradient(123deg, #742c14, #ff4204, #742c14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20%;
+    color: #D65A31;
+    font-weight: bold;
+    border: solid #eeeeee00;
+    border-top-color: #D65A31;
+    padding-bottom: 10%;
+}
+
+.service-button-list {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-button-list::after {
+    display: block;
+    clear: both;
+}
+
+.service-button button {
+    width: 25%;
+    height: 20%;
+    font-size: 50%;
+    border-radius: 5%;
+    background-color: #EEEEEE;
+    box-shadow: 8px 8px 10px #222831;
+}
+
+.service-list {
+    word-spacing: 5px;
+    margin: 5px;
+    color: gray;
+    font-style: italic;
+    list-style: none;
+    display: inline;
+}
+
+.service-list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* End Services Config */
+/* ====================================== */
+
+/* Start Contacts Config */
+#contacts {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+#contacts::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-title {
+    font-size: 100%;
+}
+
+#contacts .contacts p {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.contacts {
+    margin-top: 5%;
+    font-size: 35px;
+    color: #EEEEEE;
+    max-width: 100%;
+}
+
+.contacts-icon img {
+    max-width: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.buttons-icon img {
+    max-width: 70px;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+.email-button {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #222831;
+    background-color: #D65A31;
+    border-style: none;
+    box-shadow: 2px 2px 8px #222831;
+}
+
+button a {
+    color: #222831;
+    text-decoration: none;
+}
+
+#img03>img {
+    position: static;
+    height: auto;
+    float: right;
+    max-width: 55%;
+}
+
+#img03::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* End Contacts Config */
+/* ====================================== */
+
+
+/* Animations */
+
+/* Border */
+.border-color {
+    transition: border-color 1s;
+    border-bottom: solid 2px #eeeeee00;
+}
+
+.border-color:hover {
+    border-color: #D65A31;
+}
+
+/* Scales */
+.transition-scale {
+    transition: transform 1.5s, border-color 1s;
+}
+
+.transition-scale:hover {
+    transform: scale(1.1);
+    border-color: #D65A31;
+}
+
+/* .imgAnimation img {
+    background-image: url("../img/BackEndIcon.png");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.imgAnimation img:hover {
+    background-image: url("../img/BackEndGif.gif");
+} */
+
+/* Start Responsive Config */
+@media (max-width: 768px) {
+    #article {
+        max-width: 100%;
+        float: left;
+    }
+
+    #layout {
+        flex-wrap: wrap;
+        color: #EEEEEE;
+    }
+
+    #img01>img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    #img02>img {
+        max-width: 100%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+
+    #img03>img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .service-button-list {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-button button {
+        width: 60%;
+        height: 20%;
+        font-size: 50%;
+        background-color: #EEEEEE;
+        box-shadow: 8px 8px 10px #222831;
+        margin: 10px;
+    }
+
+    .contacts {
+        margin-top: 5%;
+        font-size: 35px;
+        color: #EEEEEE;
+        max-width: 100%;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+}
+
+.footer {
+    position: static;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    color: gray;
+    background-color: #222831;
+}

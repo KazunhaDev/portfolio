@@ -6,177 +6,180 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/stylehome.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <nav class="navBar">
-        <a class="borderColor" href="#home">HOME</a>
-        <a class="borderColor" href="#skills">SKILLS</a>
-        <a class="borderColor" href="#services">SERVICES</a>
-        <a class="borderColor contact" href="#contacts">CONTACT</a>
-
-    </nav>
-
-    <div id="home" class="homeGrid">
-        <div>
-            <img class="img01" src="./img/Portfolio_01.png">
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+                <a class="border-color" href="#home">HOME</a>
+                <a class="border-color" href="#skills">SKILLS</a>
+                <a class="border-color" href="#services">SERVICES</a>
+                <a class="border-color contact" href="#contacts">CONTACT</a>
+            </nav>
         </div>
+    </header>
 
-        <div class="introduction">
-            <div>
-                <p class="title">Who I'm?</p>
-                <p>A <span class="fullStack">
-                        <strong>
-                            FULL STACK
-                        </strong>
-                    </span></p>
-                <p>Developer!</p>
-            </div>
-
-            <div class="myself">
-                <p>Hi! My name is Breno, I'm 20 years old and I'm a beginner in the web programming!</p>
-                <p>Academic training from <span class="senaiDC">
-                        <a target="_blank" href="https://firjansenai.com.br/cursorio/portal/index.php"> SENAI Duque de
-                            Caxias</a>
-                    </span>,
-                    <span class="senaiDC">
-                        <a target="_blank" href="https://firjansenai.com.br/cursorio/portal/index.php">SENAI
-                            Petrópolis</a>
-                    </span>.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="skills" class="skillsGrid">
-        <div>
-            <img class="img02" src="./img/Portfolio_02.png" alt="">
-        </div>
-
-        <div>
-            <div class="skillsTitle">
-                <p>Skills</p>
-            </div>
-
-            <strong>
-                <div>
-                    <table class="skillsTable">
-
-                        <tr>
-                            <td>
-                                <img class="skillsIcons" src="./img/LargeHtmlIcon.png" alt="">
-                                <p>HTML-5</p>
-                            </td>
-                            <td>
-                                <img class="skillsIcons" src="./img/JavaScriptIcon.png" alt="">
-                                <p>JavaScript</p>
-                            </td>
-                            <td>
-                                <img class="skillsIcons" src="./img/JavaIcon.png" alt="">
-                                <p>Java</p>
-                            </td>
-                            <td>
-                                <img class="skillsIcons" src="./img/dataBaseIcon.png" alt="">
-                                <p>MYSql</p>
-                            </td>
-                        <tr>
-                            <td>
-                                <img class="skillsIcons" src="./img/AndroidStudioIcon.png" alt="">
-                                <p>AndroidStudio</p>
-                            </td>
-                            <td>
-                                <img class="skillsIcons" src="./img/PostgresIcon.png" alt="">
-                                <p>Postgres</p>
-                            </td>
-                            <td>
-                                <img class="skillsIcons" src="./img/ReactIcon.png" alt="">
-                                <p>React</p>
-                            </td>
-                            <td>
-                                <img class="skillsIcons" src="./img/GithubIcon.png" alt="">
-                                <p>GitHub</p>
-                            </td>
-                        </tr>
-                        </tr>
-                    </table>
-
-                    <ul class="skillList">
-                        <li>FullStack Web Developer.</li>
-                        <li>Database Interaction.</li>
-                        <li>Mobile Developer.</li>
-                    </ul>
+    <div class="container">
+        <div id="home">
+            <div id="layout">
+                <article id="article">
+                    <p id="who-im">Who I'm?</p>
+                    <p>A <span id="full-stack">
+                            <strong>
+                                Full Stack
+                            </strong>
+                        </span>Developer!</p>
+                    <div id="myself">
+                        <p>Hi! My name is Breno, I'm 20 years old and I'm a beginner in the web programming. Academic
+                            training from
+                            <strong>
+                                <span>
+                                    <a id="senai-institution" target="_blank"
+                                        href="https://firjansenai.com.br/cursorio/portal/index.php">
+                                        Firjan SENAI
+                                    </a>
+                                </span>.
+                            </strong>
+                        </p>
+                    </div>
+                </article>
+                <div id="img01">
+                    <img src="./img/Portfolio_01.png">
                 </div>
-            </strong>
-        </div>
-
-    </div>
-
-    <div id="services" class="servicesGrid">
-        <div class="servicesTittle">Services</div>
-
-        <div class="serviceButtonList">
-            <button class="serviceButton transitionScale imgAnimation">
-                <img class="buttonsIcon" src="./img/FrontEndIcon.png" alt="">
-                <ul class="serviceList">
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JavScript</li>
-                </ul>
-
-                <p class="servicesType">FRONT-END</p>
-            </button>
-            <button class="serviceButton transitionScale imgAnimation">
-                <img class="buttonsIcon" src="./img/BackEndIcon.png" alt="">
-                <ul class="serviceList">
-                    <li>API</li>
-                    <li>DataBase</li>
-                    <li>Server Logic</li>
-                </ul>
-                <p class="servicesType">BACK-END</p>
-            </button>
-            <button class="serviceButton transitionScale imgAnimation">
-                <img class="buttonsIcon" src="./img/AndroidPhoneIcon.png" alt="">
-                <ul class="serviceList">
-                    <li>React</li>
-                    <li>JavaScript</li>
-                    <li>Mobile Apps</li>
-                </ul>
-                <p class="servicesType">ANDROID STUDIO</p>
-            </button>
-        </div>
-    </div>
-
-    <div id="contacts" class="contactGrid">
-        <div>
-            <img class="img03" src="./img/Portfolio_03.png">
-        </div>
-
-        <div class="contactTitle">Contact</div>
-
-        <div class="contacts">
-            <p>WANT TO CONTACT ME? USE THE EMAIL OR DISCORD!</p>
-            <table>
-                <img class="discordIcon" src="./img/DiscordIcon.png" alt="" style="vertical-align: middle;">
-                Kazunha#4400
-            </table>
-
-            <div class="contactsIconList">
-                <img class="contactsIcon" src="./img/LinkedinIcon.png">
-                <img class="contactsIcon" src="./img/GmailIcon.png">
-                <img class="contactsIcon" src="./img/WhatsappIcon.png">
-                <img class="contactsIcon" src="./img/GithubIcon.png">
             </div>
-
-            <button class="emailButton">
-                <a href="mailto:breno.ba777@gmail.com">E-MAIL</a>
-            </button>
         </div>
 
+        <div id="skills">
+            <div id="layout">
+                <div id="img02">
+                    <img src="./img/Portfolio_02.png" alt="">
+                </div>
+                <article id="skills-content">
+                    <div>
+                        <strong>
+                            <div class="skills-title">Skills</div>
+                            <div>
+                                <table class="skills-table skills-icons">
+                                    <tr>
+                                        <td>
+                                            <img src="./img/LargeHtmlIcon.png" alt="">
+                                            <p>HTML-5</p>
+                                        </td>
+                                        <td>
+                                            <img src="./img/JavaScriptIcon.png" alt="">
+                                            <p>JavaScript</p>
+                                        </td>
+                                        <td>
+                                            <img src="./img/JavaIcon.png" alt="">
+                                            <p>Java</p>
+                                        </td>
+                                        <td>
+                                            <img src="./img/dataBaseIcon.png" alt="">
+                                            <p>MYSql</p>
+                                        </td>
+                                    <tr>
+                                        <td>
+                                            <img src="./img/AndroidStudioIcon.png" alt="">
+                                            <p>AndroidStudio</p>
+                                        </td>
+                                        <td>
+                                            <img src="./img/PostgresIcon.png" alt="">
+                                            <p>Postgres</p>
+                                        </td>
+                                        <td>
+                                            <img src="./img/ReactIcon.png" alt="">
+                                            <p>React</p>
+                                        </td>
+                                        <td>
+                                            <img src="./img/GithubIcon.png" alt="">
+                                            <p>GitHub</p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <ul class="skill-list">
+                                    <li>FullStack Web Developer.</li>
+                                    <li>Database Interaction.</li>
+                                    <li>Mobile Developer.</li>
+                                </ul>
+                            </div>
+                        </strong>
+                </article>
+            </div>
+        </div>
     </div>
-    <footer class="footer">
-        <p>Breno de Amarante da Silva</p>
-    </footer>
+
+    <div id="services">
+        <div class="services-tittle ">Services</div>
+
+        <div class="buttons-icon service-button-list service-button services-type">
+            <button class="transition-scale imgAnimation">
+                <img src="./img/FrontEndIcon.png" alt="">
+                <ul class="service-list">
+                    <p>CSS</p>
+                    <p>HTML</p>
+                    <p>JavScript</p>
+                </ul>
+                <p id="service-category">FRONT-END</p>
+
+            </button>
+            <button class="transition-scale imgAnimation">
+                <img src="./img/BackEndIcon.png" alt="">
+                <ul class="service-list">
+                    <p>API</p>
+                    <p>DataBase</p>
+                    <p>Server Logic</p>
+                </ul>
+                <p id="service-category">BACK-END</p>
+
+            </button>
+            <button class="transition-scale imgAnimation">
+                <img src="./img/AndroidPhoneIcon.png" alt="">
+                <ul class="service-list">
+                    <p>React</p>
+                    <p>JavaScript</p>
+                    <p>Mobile Apps</p>
+                </ul>
+                <p id="service-category">ANDROID STUDIO</p>
+            </button>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <div class="layout">
+            <article>
+                <div class="contact-title">Contact</div>
+
+                <div class="contacts contacts-icon">
+                    <p>WANT TO CONTACT ME? USE THE EMAIL OR DISCORD!</p>
+                    <table>
+                        <img src="./img/DiscordIcon.png" alt="" style="vertical-align: middle;">
+                        Kazunha#4400
+                    </table>
+                    <div class="contactsIconList">
+                        <img src="./img/LinkedinIcon.png">
+                        <img src="./img/GmailIcon.png">
+                        <img src="./img/WhatsappIcon.png">
+                        <img src="./img/GithubIcon.png">
+                    </div>
+                    <button class="email-button">
+                        <a href="mailto:breno.ba777@gmail.com">E-MAIL</a>
+                    </button>
+                </div>
+            </article>
+        </div>
+        <div id="img03">
+            <img src="./img/Portfolio_03.png">
+        </div>
+    </div>
+
+    <div>
+        <footer class="footer">
+            <p>breno.ba777@gmail.com - All rights reserved</p>
+        </footer>
+    </div>
 
 </body>
 
