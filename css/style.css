@@ -324,9 +324,14 @@ button a {
         margin-top: 50px;
     }
 
+    #skills>#layout {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     #img02>img {
         max-width: 100%;
-        margin-bottom: 5%;
+        margin-top: 10%;
         height: auto;
     }
 
@@ -357,8 +362,6 @@ button a {
         font-size: 35px;
         color: #EEEEEE;
         max-width: 100%;
-        /* display: flex; */
-        /* flex-wrap: wrap; */
     }
 }
 
