@@ -6,180 +6,268 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="nav-bar">
-                <a class="border-color" href="#home">HOME</a>
-                <a class="border-color" href="#skills">SKILLS</a>
-                <a class="border-color" href="#services">SERVICES</a>
-                <a class="border-color contact" href="#contacts">CONTACT</a>
-            </nav>
-        </div>
+    <header class="layout-header header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 header__title">
+                    <h1>KazunhaDev</h1>
+                </div>
+                <div>
+                    <div class="container">
+                        <div class="row header__references">
+                            <div class="col-sm-2">
+                                <a class="border-color" href="#home">HOME</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="border-color" href="#skills">SKILLS</a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a class="border-color" href="#services">SERVICES</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="border-color contact" href="#contacts">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </header>
 
-    <div class="container">
-        <div id="home">
-            <div id="layout">
-                <article id="article">
-                    <p id="who-im">Who I'm?</p>
-                    <p>A <span id="full-stack">
-                            <strong>
-                                Full Stack
-                            </strong>
-                        </span>Developer!</p>
-                    <div id="myself">
-                        <p>Hi! My name is Breno, I'm 20 years old and I'm a beginner in the web programming. Academic
-                            training from
-                            <strong>
+    <!-- HOME -->
+    <div class="layout-contents" id="home">
+        <div class="container-fluid">
+            <div class="contents">
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-6">
+                        <strong>
+                            <div class="contents__home-title">
+                                <h1>
+                                    <span class="contents__full-stack">
+                                        Full Stack
+                                    </span>Developer!
+                                </h1>
+                            </div>
+                            <div>
+                                Hi! My name is Breno, I'm 20 years old and I'm a beginner in the web programming.
+                                Academic training from
+
                                 <span>
-                                    <a id="senai-institution" target="_blank"
+                                    <a class="contents__senai-institution" target="_blank"
                                         href="https://firjansenai.com.br/cursorio/portal/index.php">
                                         Firjan SENAI
-                                    </a>
-                                </span>.
-                            </strong>
-                        </p>
-                    </div>
-                </article>
-                <div id="img01">
-                    <img src="./img/Portfolio_01.png">
-                </div>
-            </div>
-        </div>
-
-        <div id="skills">
-            <div id="layout">
-                <div id="img02">
-                    <img src="./img/Portfolio_02.png" alt="">
-                </div>
-                <article id="skills-content">
-                    <div>
-                        <strong>
-                            <div class="skills-title">Skills</div>
-                            <div>
-                                <table class="skills-table skills-icons">
-                                    <tr>
-                                        <td>
-                                            <img src="./img/LargeHtmlIcon.png" alt="">
-                                            <p>HTML-5</p>
-                                        </td>
-                                        <td>
-                                            <img src="./img/JavaScriptIcon.png" alt="">
-                                            <p>JavaScript</p>
-                                        </td>
-                                        <td>
-                                            <img src="./img/JavaIcon.png" alt="">
-                                            <p>Java</p>
-                                        </td>
-                                        <td>
-                                            <img src="./img/dataBaseIcon.png" alt="">
-                                            <p>MYSql</p>
-                                        </td>
-                                    <tr>
-                                        <td>
-                                            <img src="./img/AndroidStudioIcon.png" alt="">
-                                            <p>AndroidStudio</p>
-                                        </td>
-                                        <td>
-                                            <img src="./img/PostgresIcon.png" alt="">
-                                            <p>Postgres</p>
-                                        </td>
-                                        <td>
-                                            <img src="./img/ReactIcon.png" alt="">
-                                            <p>React</p>
-                                        </td>
-                                        <td>
-                                            <img src="./img/GithubIcon.png" alt="">
-                                            <p>GitHub</p>
-                                        </td>
-                                    </tr>
-                                </table>
-
-                                <ul class="skill-list">
-                                    <li>FullStack Web Developer.</li>
-                                    <li>Database Interaction.</li>
-                                    <li>Mobile Developer.</li>
-                                </ul>
+                                    </a>.
+                                </span>
                             </div>
                         </strong>
-                </article>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 contents__images">
+                        <img id="img01" src="./img/Portfolio_01.png">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="services">
-        <div class="services-tittle ">Services</div>
+        <!-- SKILLS -->
+        <div class="layout-contents" id="skills">
+            <div class="container-fluid">
+                <div class="contents">
+                    <div class="row">
 
-        <div class="buttons-icon service-button-list service-button services-type">
-            <button class="transition-scale imgAnimation">
-                <img src="./img/FrontEndIcon.png" alt="">
-                <ul class="service-list">
-                    <p>CSS</p>
-                    <p>HTML</p>
-                    <p>JavScript</p>
-                </ul>
-                <p id="service-category">FRONT-END</p>
+                        <div class="col-sm-12 col-md-6 contents__images">
+                            <img src="./img/Portfolio_02.png">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="contents__skills">
+                                <strong>
+                                    <div class="contents__titles">
+                                        <p>Skills</p>
+                                    </div>
+                                    <div>
+                                        <table class="skills-table contents__skills-icons contents__skills-names">
+                                            <tr>
+                                                <td>
+                                                    <img src="./img/LargeHtmlIcon.png">
+                                                    <p>HTML-5</p>
+                                                </td>
+                                                <td>
+                                                    <img src="./img/JavaScriptIcon.png">
+                                                    <p>JavaScript</p>
+                                                </td>
+                                                <td>
+                                                    <img src="./img/JavaIcon.png">
+                                                    <p>Java</p>
+                                                </td>
+                                                <td>
+                                                    <img src="./img/dataBaseIcon.png">
+                                                    <p>MYSql</p>
+                                                </td>
+                                            <tr>
+                                                <td>
+                                                    <img src="./img/AndroidStudioIcon.png">
+                                                    <p>Android Studio</p>
+                                                </td>
+                                                <td>
+                                                    <img src="./img/PostgresIcon.png">
+                                                    <p>Postgres</p>
+                                                </td>
+                                                <td>
+                                                    <img src="./img/ReactIcon.png">
+                                                    <p>React</p>
+                                                </td>
+                                                <td>
+                                                    <img src="./img/GithubIcon.png">
+                                                    <p>GitHub</p>
+                                                </td>
+                                            </tr>
+                                        </table>
 
-            </button>
-            <button class="transition-scale imgAnimation">
-                <img src="./img/BackEndIcon.png" alt="">
-                <ul class="service-list">
-                    <p>API</p>
-                    <p>DataBase</p>
-                    <p>Server Logic</p>
-                </ul>
-                <p id="service-category">BACK-END</p>
-
-            </button>
-            <button class="transition-scale imgAnimation">
-                <img src="./img/AndroidPhoneIcon.png" alt="">
-                <ul class="service-list">
-                    <p>React</p>
-                    <p>JavaScript</p>
-                    <p>Mobile Apps</p>
-                </ul>
-                <p id="service-category">ANDROID STUDIO</p>
-            </button>
-        </div>
-    </div>
-
-    <div id="contacts">
-        <div class="layout">
-            <article>
-                <div class="contact-title">Contact</div>
-
-                <div class="contacts contacts-icon">
-                    <p>WANT TO CONTACT ME? USE THE EMAIL OR DISCORD!</p>
-                    <table>
-                        <img src="./img/DiscordIcon.png" alt="" style="vertical-align: middle;">
-                        Kazunha#4400
-                    </table>
-                    <div class="contactsIconList">
-                        <img src="./img/LinkedinIcon.png">
-                        <img src="./img/GmailIcon.png">
-                        <img src="./img/WhatsappIcon.png">
-                        <img src="./img/GithubIcon.png">
+                                        <ul class="skill-list">
+                                            <li>FullStack Web Developer.</li>
+                                            <li>Database Interaction.</li>
+                                            <li>Mobile Developer.</li>
+                                        </ul>
+                                    </div>
+                                </strong>
+                            </div>
+                        </div>
                     </div>
-                    <button class="email-button">
-                        <a href="mailto:breno.ba777@gmail.com">E-MAIL</a>
-                    </button>
                 </div>
-            </article>
+            </div>
         </div>
-        <div id="img03">
-            <img src="./img/Portfolio_03.png">
-        </div>
-    </div>
 
-    <div>
-        <footer class="footer">
-            <p>breno.ba777@gmail.com - All rights reserved</p>
-        </footer>
-    </div>
+        <!-- SERVICES -->
+        <div class="layout-contents" id="services">
+            <div class="container-fluid">
+                <div class="contents">
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-12">
+                            <div class="contents__titles" style="text-align: center;">
+                                <p>Services</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 contents__buttons-icon contents__service-button-list">
+                                <article
+                                    class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
+                                    <div>
+                                        <div class="row">
+                                            <article class="contents__service-list">
+                                                <div class="col-12">
+                                                    <img class="contents__service-icons" src="./img/FrontEndIcon.png">
+                                                </div>
+                                                <div class="col-12">CSS</div>
+                                                <div class="col-12">HTML</div>
+                                                <div class="col-12">JavScript</div>
+                                            </article>
+                                        </div>
+                                        <div class="col-12 contents__service-category">
+                                            <div>FRONT-END</div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article
+                                    class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
+                                    <div>
+                                        <div class="row">
+                                            <article class="contents__service-list">
+                                                <div class="col-12">
+                                                    <img class="contents__service-icons" src="./img/BackEndIcon.png">
+                                                </div>
+                                                <div class="col-12">API</div>
+                                                <div class="col-12">DataBase</div>
+                                                <div class="col-12">Server Logic</div>
+                                            </article>
+                                        </div>
+                                        <div class="col-12 contents__service-category">
+                                            <div>BACK-END</div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article
+                                    class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
+                                    <div>
+                                        <div class="row">
+                                            <article class="contents__service-list">
+                                                <div class="col-12">
+                                                    <img class="contents__service-icons"
+                                                        src="./img/AndroidPhoneIcon.png">
+                                                </div>
+                                                <div class="col-12">React</div>
+                                                <div class="col-12">JavaScript</div>
+                                                <div class="col-12">Mobile Apps</div>
+                                            </article>
+                                        </div>
+                                        <div class="col-12 contents__service-category">
+                                            <div>ANDROID STUDIO</div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACTS -->
+        <div class="layout-contents" id="contacts">
+            <div class="container-fluid">
+                <div class="contents">
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-6">
+                            <div class="contents__titles">
+                                <p>Contacts</p>
+                            </div>
+
+                            <div class="contacts contacts-icon">
+                                <p>WANT TO CONTACT ME? USE THE EMAIL OR DISCORD!</p>
+                                <table>
+                                    <a class="contents__discord" href="https://discordapp.com/users/497121360657514507"
+                                        target="_blank">
+                                        <img src="./img/DiscordIcon.png" style="vertical-align: middle;">
+                                        Kazunha#4400
+                                    </a>
+
+                                </table>
+                                <div class="contactsIconList">
+                                    <img src="./img/LinkedinIcon.png">
+                                    <img src="./img/GmailIcon.png">
+                                    <img src="./img/WhatsappIcon.png">
+                                    <img src="./img/GithubIcon.png">
+                                </div>
+                                <button class="contents__email-button">
+                                    <a href="mailto:breno.ba777@gmail.com">E-MAIL</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 contents__images">
+                            <img id="img03" src="./img/Portfolio_03.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div>
+            <footer class="footer">
+                <p>breno.ba777@gmail.com - All rights reserved</p>
+            </footer>
+        </div>
 
 </body>
 

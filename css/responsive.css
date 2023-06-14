@@ -1,0 +1,55 @@
+@media (max-width: 767px) {
+    .contents {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .contents__images>img {
+        width: 600px;
+        margin: 30px 0;
+    }
+
+    .contents__titles p {
+        text-align: center;
+    }
+
+    /* HOME */
+    .contents__home-title h1 {
+        font-size: 3.5rem;
+    }
+
+    /* SKILLS */
+    .contents__skills {
+        margin: 30px 0;
+    }
+
+    .contents__skills-icons img {
+        margin: 15px;
+        padding: 5px;
+        max-width: 60px;
+    }
+
+    .contents__service-button-list {
+        margin: 15%;
+        flex-direction: column;
+        max-width: 15rem;
+    }
+
+    /* SERVICE BUTTON */
+    .contents__service-card {
+        font-size: 1rem;
+        border-radius: 5%;
+        margin-bottom: 1rem;
+        background-color: #EEEEEE;
+        box-shadow: 8px 8px 10px #222831;
+    }
+
+    /* FOOTER */
+    .footer {
+        font-size: 1rem;
+    }
+}
