@@ -73,10 +73,10 @@ strong {
 .contents__skills {
     justify-self: center;
     margin: 0 60px;
+    float: right;
 }
 
 /* .skills-table {} */
-
 .contents__skills-icons img {
     margin: 0 30px;
     padding: 5px;
@@ -94,7 +94,6 @@ strong {
 }
 
 /* .contents__service-icons img {} */
-
 .contents__service-button-list {
     display: flex;
     max-width: 100%;
@@ -132,14 +131,7 @@ strong {
     -webkit-text-fill-color: transparent;
 }
 
-/* FINISH */
-/* Start Contacts Config */
-#contacts .contacts p {
-    margin: 0;
-    font-size: 1.65rem;
-    font-style: italic;
-}
-
+/* Contacts Config */
 .contacts {
     font-size: 1.65rem;
     color: #EEEEEE;
@@ -150,9 +142,23 @@ strong {
     max-width: 35px;
 }
 
+.contacts p {
+    margin: 0;
+    font-size: 1.65rem;
+    font-style: italic;
+}
+
 .contents__buttons-icon img {
     margin: 5% 0;
     max-width: 70px;
+}
+
+.contents__discord {
+    color: #EEEEEE;
+}
+
+.contents__discord:hover {
+    color: #ff4204;
 }
 
 .contents__email-button {
@@ -167,22 +173,12 @@ strong {
     box-shadow: 2px 2px 8px #222831;
 }
 
-button a {
+.contents__email-button a {
     color: #222831;
     text-decoration: none;
 }
 
-/* End Contacts Config */
-/* ====================================== */
-
-.contents__discord {
-    color: #EEEEEE;
-}
-
-.contents__discord:hover {
-    color: #ff4204;
-}
-
+/* Footer */
 .footer {
     position: static;
     padding-top: 5px;
