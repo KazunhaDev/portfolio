@@ -1,7 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Lato;
     color: #EEEEEE;
-    background-color: #393E46;
+    /* background-color: #393E46; */
+    background-image: linear-gradient(145deg, #393E46, #222831, #393E46, #D65A31);
+    /* background-attachment: fixed; */
 }
 
 strong {
@@ -194,4 +200,49 @@ strong {
     font-size: 1.25rem;
     color: gray;
     background-color: #222831;
+}
+
+#up {
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, #222831, #D65A31);
+    filter: blur(80px);
+    animation: down 40s infinite;
+}
+
+#down {
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, #D65A31, #222831);
+    filter: blur(40px);
+    animation: up 30s infinite;
+
+}
+
+#left {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, #222831, #D65A31);
+    filter: blur(150px);
+    animation: left 30s 1s infinite;
+
+}
+
+#right {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    top: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg, #222831, #D65A31);
+    filter: blur(130px);
+    animation: right 30s infinite;
+
 }
