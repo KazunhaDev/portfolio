@@ -7,7 +7,7 @@ body {
     color: #EEEEEE;
     /* background-color: #393E46; */
     background-image: linear-gradient(145deg, #393E46, #222831, #393E46, #D65A31);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 strong {
@@ -203,7 +203,7 @@ strong {
 }
 
 #up {
-    position: absolute;
+    position: fixed;
     height: 800px;
     width: 800px;
     border-radius: 50%;
@@ -213,7 +213,7 @@ strong {
 }
 
 #down {
-    position: absolute;
+    position: fixed;
     right: 0;
     height: 500px;
     width: 500px;
@@ -225,7 +225,7 @@ strong {
 }
 
 #left {
-    position: absolute;
+    position: fixed;
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -236,7 +236,7 @@ strong {
 }
 
 #right {
-    position: absolute;
+    position: fixed;
     height: 550px;
     width: 550px;
     top: 100%;
