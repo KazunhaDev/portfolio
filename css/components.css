@@ -5,8 +5,8 @@ html {
 body {
     font-family: Lato;
     color: #EEEEEE;
-    /* background-color: #393E46; */
-    background-image: linear-gradient(145deg, #393E46, #222831, #393E46, #D65A31);
+    background-color: #222831;
+    /* background-image: linear-gradient(145deg, #393E46, #222831, #393E46, #D65A31); */
     background-attachment: fixed;
 }
 
@@ -14,14 +14,20 @@ strong {
     font-weight: lighter;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
 .header div>a {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     text-decoration: none;
     color: #EEEEEE;
 }
 
 .header__title {
-    text-align: left;
+    text-align: center;
     margin-left: 1rem;
     color: gray;
 }
@@ -36,8 +42,12 @@ strong {
 
 .contents {
     margin: 60px;
-    margin-top: 5%;
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.contents__background-color {
+    padding: 0.1rem;
+    background-color: #393E46;
 }
 
 .contents__titles p {
@@ -45,6 +55,7 @@ strong {
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: lighter;
+    color: #EEEEEE;
 }
 
 .contents__home-title {
@@ -84,6 +95,12 @@ strong {
     justify-self: center;
     margin: 0 60px;
     float: right;
+    color: #EEEEEE;
+}
+
+.skills-layout {
+    margin: 0;
+    padding: 0;
 }
 
 /* .skills-table {} */
@@ -103,7 +120,16 @@ strong {
     font-weight: lighter;
 }
 
+
+/* .contents__service-icons {
+    padding: 0;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    background-color: #222831;
+} */
+
 /* .contents__service-icons img {} */
+
 .contents__service-button-list {
     display: flex;
     max-width: 100%;
@@ -123,13 +149,13 @@ strong {
 }
 
 .contents__service-list {
+    padding: 0;
     word-spacing: 5px;
-    font-style: italic;
     color: gray;
 }
 
 .contents__service-category {
-    margin-top: 20%;
+    margin-top: 10%;
     padding-bottom: 10%;
     font-weight: bold;
 
@@ -171,7 +197,7 @@ strong {
     color: #ff4204;
 }
 
-.contents__email-button {
+.contents__button {
     margin-top: 10px;
     padding: 0.5%;
     font-size: 1.3rem;
@@ -183,7 +209,19 @@ strong {
     box-shadow: 2px 2px 8px #222831;
 }
 
-.contents__email-button a {
+.contents__button--email {
+    margin-top: 10px;
+    padding: 0.5%;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+    color: #222831;
+    background-color: #D65A31;
+    box-shadow: 2px 2px 8px #222831;
+}
+
+.contents__button--email a {
     color: #222831;
     text-decoration: none;
 }
@@ -202,6 +240,7 @@ strong {
     background-color: #222831;
 }
 
+/* 
 #up {
     position: fixed;
     height: 800px;
@@ -245,4 +284,4 @@ strong {
     filter: blur(130px);
     animation: right 30s infinite;
 
-}
+} */

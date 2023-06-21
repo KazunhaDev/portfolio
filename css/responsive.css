@@ -67,9 +67,9 @@
     }
 
     .contents__service-button-list {
-        margin: 15%;
+        margin: 10%;
         flex-direction: column;
-        max-width: 15rem;
+        max-width: 80%;
     }
 
     /* SERVICE BUTTON */

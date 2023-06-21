@@ -1,6 +1,11 @@
 .layout-header {
-    margin-top: 15px;
+    margin: 1rem 0;
     text-align: center;
+}
+
+.contents__skills-layout {
+    margin: 0;
+    padding: 0;
 }
 
 /* div>.row {

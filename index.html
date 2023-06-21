@@ -16,11 +16,11 @@
 </head>
 
 <body>
-
+    <!-- 
     <section id="up"></section>
     <section id="down"></section>
     <section id="left"></section>
-    <section id="right"></section>
+    <section id="right"></section> -->
 
     <header class="layout-header header">
         <div class="container-fluid">
@@ -51,35 +51,38 @@
 
     <!-- HOME -->
     <div class="layout-contents" id="home">
-        <div class="container-fluid">
-            <div class="contents">
-                <div class="row">
+        <div class="contents__background-color">
+            <div class="container-fluid">
+                <div class="contents" style="margin-top: 5%;">
 
-                    <div class="col-sm-12 col-md-6">
-                        <strong>
-                            <div class="contents__home-title">
-                                <h1>
-                                    <span class="contents__full-stack">
-                                        Full Stack
-                                    </span>Developer!
-                                </h1>
-                            </div>
-                            <div class="contents__text">
-                                Hi! My name is Breno, I'm 20 years old and I'm a beginner in the web programming.
-                                Academic training from
+                    <div class="row">
 
-                                <span>
-                                    <a class="contents__senai-institution" target="_blank"
-                                        href="https://firjansenai.com.br/cursorio/portal/index.php">
-                                        Firjan SENAI
-                                    </a>.
-                                </span>
-                            </div>
-                        </strong>
-                    </div>
+                        <div class="col-sm-12 col-md-6">
+                            <strong>
+                                <div class="contents__home-title">
+                                    <h1>
+                                        <span class="contents__full-stack">
+                                            Full Stack
+                                        </span>Developer!
+                                    </h1>
+                                </div>
+                                <div class="contents__text">
+                                    Hi there, I'm Breno! I'm a beginner in the web programming.
+                                    Academic training from
 
-                    <div class="col-sm-12 col-md-6 contents__images">
-                        <img id="img01" src="./img/Portfolio_01.png">
+                                    <span>
+                                        <a class="contents__senai-institution" target="_blank"
+                                            href="https://firjansenai.com.br/cursorio/portal/index.php">
+                                            Firjan SENAI
+                                        </a>.
+                                    </span>
+                                </div>
+                            </strong>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 contents__images">
+                            <img id="img01" src="./img/Portfolio_01.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +97,7 @@
                             <div class="col-sm-12 col-md-6 contents__images">
                                 <img src="./img/Portfolio_02.png">
                             </div>
-                            <div class=" col-sm-12 col-md-6">
+                            <div class=" col-sm-12 col-md-6 skills-layout">
                                 <div class="contents__skills">
                                     <strong>
                                         <div class="contents__titles">
@@ -117,7 +120,7 @@
                                                     </td>
                                                     <td>
                                                         <img src="./img/dataBaseIcon.png">
-                                                        <p>MYSql</p>
+                                                        <p>MySQL</p>
                                                     </td>
                                                 <tr>
                                                     <td>
@@ -155,74 +158,85 @@
         </div>
 
         <!-- SERVICES -->
-        <div class="layout-contents" id="services">
-            <div class="container-fluid">
-                <div class="contents">
-                    <div class="row">
+        <div class="contents__background-color">
+            <div class="layout-contents" id="services">
+                <div class="container-fluid">
+                    <div class="contents">
+                        <div class="row">
 
-                        <div class="col-sm-12 col-md-12">
-                            <div class="contents__titles" style="text-align: center;">
-                                <p>Services</p>
-                            </div>
-                            <div class="col-sm-12 col-md-12 contents__buttons-icon contents__service-button-list">
-                                <article
-                                    class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
-                                    <div>
-                                        <div class="row">
-                                            <article class="contents__service-list">
-                                                <div class="col-12">
-                                                    <img class="contents__service-icons" src="./img/FrontEndIcon.png">
-                                                </div>
-                                                <div class="col-12">CSS</div>
-                                                <div class="col-12">HTML</div>
-                                                <div class="col-12">JavScript</div>
-                                            </article>
+                            <div class="col-sm-12 col-md-12">
+                                <div class="contents__titles" style="text-align: center;">
+                                    <p>Services</p>
+                                </div>
+                                <div class="col-sm-12 col-md-12 contents__buttons-icon contents__service-button-list">
+                                    <article
+                                        class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
+                                        <div>
+                                            <div class="row">
+                                                <article class="col-12 contents__service-list">
+                                                    <div class="col-12 contents__service-icons">
+                                                        <img class="contents__service-icons"
+                                                            src="./img/FrontEndIcon.png">
+                                                    </div>
+                                                    <div class="col-12">CSS</div>
+                                                    <div class="col-12">HTML</div>
+                                                    <div class="col-12">JavScript</div>
+                                                    <div class="col-12">React</div>
+                                                    <div class="col-12">Bootstrap</div>
+                                                </article>
+                                            </div>
+                                            <div class="col-12 contents__service-category">
+                                                <div>FRONT-END</div>
+                                            </div>
                                         </div>
-                                        <div class="col-12 contents__service-category">
-                                            <div>FRONT-END</div>
-                                        </div>
-                                    </div>
-                                </article>
+                                    </article>
 
-                                <article
-                                    class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
-                                    <div>
-                                        <div class="row">
-                                            <article class="contents__service-list">
-                                                <div class="col-12">
-                                                    <img class="contents__service-icons" src="./img/BackEndIcon.png">
-                                                </div>
-                                                <div class="col-12">API</div>
-                                                <div class="col-12">DataBase</div>
-                                                <div class="col-12">Server Logic</div>
-                                            </article>
+                                    <article
+                                        class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
+                                        <div>
+                                            <div class="row">
+                                                <article class="col-12 contents__service-list">
+                                                    <div class="contents__service-icons col-12">
+                                                        <img class="contents__service-icons"
+                                                            src="./img/BackEndIcon.png">
+                                                    </div>
+                                                    <div class="col-12">NodeJS</div>
+                                                    <div class="col-12">MySQL</div>
+                                                    <div class="col-12">PgAdmin</div>
+                                                    <div class="col-12">Restful APIs</div>
+                                                    <div class="col-12">Server Logic</div>
+                                                </article>
+                                            </div>
+                                            <div class="col-12 contents__service-category">
+                                                <div>BACK-END</div>
+                                            </div>
                                         </div>
-                                        <div class="col-12 contents__service-category">
-                                            <div>BACK-END</div>
-                                        </div>
-                                    </div>
-                                </article>
+                                    </article>
 
-                                <article
-                                    class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
-                                    <div>
-                                        <div class="row">
-                                            <article class="contents__service-list">
-                                                <div class="col-12">
-                                                    <img class="contents__service-icons"
-                                                        src="./img/AndroidPhoneIcon.png">
-                                                </div>
-                                                <div class="col-12">React</div>
-                                                <div class="col-12">JavaScript</div>
-                                                <div class="col-12">Mobile Apps</div>
-                                            </article>
-                                        </div>
-                                        <div class="col-12 contents__service-category">
-                                            <div>ANDROID STUDIO</div>
-                                        </div>
-                                    </div>
-                                </article>
+                                    <article
+                                        class="col-sm-12 col-md-3 contents__service-card transition-scale imgAnimation">
+                                        <div>
+                                            <div class="row">
+                                                <article class="col-12 contents__service-list">
+                                                    <div class="col-12 contents__service-icons">
+                                                        <img class="contents__service-icons"
+                                                            src="./img/AndroidPhoneIcon.png">
 
+                                                    </div>
+                                                    <div class="col-12">GitHub</div>
+                                                    <div class="col-12">TypeScript</div>
+                                                    <div class="col-12">VS Code</div>
+                                                    <div class="col-12">Native Script</div>
+                                                    <div class="col-12">Mobile Apps</div>
+                                                </article>
+                                            </div>
+                                            <div class="col-12 contents__service-category">
+                                                <div>ANDROID STUDIO</div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -257,7 +271,7 @@
                                     <img src="./img/WhatsappIcon.png">
                                     <img src="./img/GithubIcon.png">
                                 </div>
-                                <button class="contents__email-button">
+                                <button class="contents__button--email">
                                     <a href="mailto:breno.ba777@gmail.com">E-MAIL</a>
                                 </button>
                             </div>
@@ -273,7 +287,7 @@
         <!-- FOOTER -->
         <div>
             <footer class="footer">
-                <p> &copy;breno.ba777@gmail.com - All rights reserved</p>
+                <p> &copy; Copyright 2023 BrenoAmarante - All rights reserved</p>
             </footer>
         </div>
 
